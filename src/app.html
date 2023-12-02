@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<link rel="icon" href="%sveltekit.assets%/favicon.png" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		%sveltekit.head%
+	</head>
+	<body data-sveltekit-preload-data="hover">
+		<div>%sveltekit.body%</div>
+		<chat-agent key="123abc9e36229f609ff90e9" />
+		<script
+			defer
+			type="module"
+			src="https://cdn.jsdelivr.net/npm/ia-news-lab-agent@0.0.6/dist/index.js"
+		></script>
+	</body>
+</html>
